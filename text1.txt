@@ -1,0 +1,17 @@
+if i created the new folder in the folder means how to push that filder into the git 
+in that i have creaetd the multiple file means what can i do
+        =>use this comman(cd ..(this is for the changing the folder from one to another folder i mean coming the one step back))
+        =>cd git2(file name)
+        =>git init
+if i want to push the 2 files at a time means what can i do
+        =>use this command(git add .)
+        =>git commit -m "index.html and index.css added"
+        =>git push origin main(we will get the erro if enter the button)
+                =>Before that we have to create new repository
+                =>git remote add origin URL LINK
+                =>git branch(check it whether it is in the branch (*master or *main))
+                =>we have there two options, if it shows there *branch master means go with master or change the brach by using these commands they are
+                =>git brach -M main
+                            =>check it once (git branch)
+                            =>*main
+                =>git push origin main
